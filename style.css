@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    background-color: grey;
+}
+#wrapper{
+    display: flex;
+}
+.table2{
+    top:10px;
+    left:370px;
+    
+}
+.table1{
+    top: 10px;
+    left:10px;
+}
+button{
+    border-radius: 10px;
+}
+.label{
+    background-color: rgb(188, 193, 197);
+}
+.box1{
+    background-color: white;
+    width: auto;
+    height: 350px;
+    border-style: dashed;
+    border-color: lightgreen;
+    padding-left:10px ;
+}
+.table1 .table2 .tr1 .label{
+    border: 2px solid green;
+    border-collapse: separate;
+}
+.table3 {
+    width: 700px;
+    height:50px;
+}
+.tr2{
+    background-color: rgb(4, 182, 242);
+   
+}
+.tr3{ background-color: aquamarine;
+
+}
+.box2{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-style: dashed;
+    border-color: lightgreen;
+    padding-left:10px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
