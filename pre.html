@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2200290130096_ishita</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    background-color: grey;
+}
+#wrapper{
+    display: flex;
+}
+.table2{
+    top:10px;
+    left:370px;
+    
+}
+.table1{
+    top: 10px;
+    left:10px;
+}
+button{
+    border-radius: 10px;
+}
+.label{
+    background-color: rgb(188, 193, 197);
+}
+.box1{
+    background-color: white;
+    width: auto;
+    height: 350px;
+    border-style: dashed;
+    border-color: lightgreen;
+    padding-left:10px ;
+}
+.table1 .table2 .tr1 .label{
+    border: 2px solid green;
+    border-collapse: separate;
+}
+.table3 {
+    width: 700px;
+    height:50px;
+}
+.tr2{
+    background-color: rgb(4, 182, 242);
+   
+}
+.tr3{ background-color: aquamarine;
+
+}
+.box2{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-style: dashed;
+    border-color: lightgreen;
+    padding-left:10px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+    </style>
+</head><body>
+    <div class="box1">
+    
+    <h1>Table Generator</h1>
+  
+<div id="wrapper">
+<table class="table1">
+    <tr style="border: 2px solid green; border-collapse:separate ;"class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;"class="label"><label for="table width">Table width
+        </label>
+        </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number" name="table width">px </td>
+    </tr>
+
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label"><label for="columns">columns</label>
+</td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number" name="columns"></td>
+    </tr>
+    <tr style="border: 2px solid green; border-collapse:separate ;"class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;"class="label "><label for="rows">Rows:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number" name="rows"></td>
+    </tr> 
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label"><label for="Border width">Border width:</label>
+           </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"> <input type="number" name="Border width">px </td>
+    </tr>
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label "><label for="Border color:">Border color:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="Border color:" >
+            <option value="coral">coral</option>
+            <option value="skyblue">skyblue</option>
+            <option value="red">red</option>
+
+        </select></td>
+    </tr>   
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label "><label for="Border type">Border type:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="Border type" >
+            <option value="solid">solid</option>
+            <option value="coral">coral</option>
+            <option value="skyblue">skyblue</option>
+            <option value="red">red</option>
+
+        </select></td>
+    </tr><tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td  style="border: 2px solid green; border-collapse:separate ;"class="label "><label for="Font:">Font:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="Font" >
+            <option value="Verdana">Verdana</option>
+            <option value="solid">Solid</option>
+            <option value="coral">coral</option>
+            <option value="skyblue">skyblue</option>
+            <option value="red">red</option>
+
+        </select></td>
+    </tr>
+
+    
+    
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;"  class="label "><label for="rounded corners">Rounded corners:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="radio" name="rounded corners">yes
+            <input type="radio" name="rounded corners">no</td>
+    </tr>
+   
+</table>
+<table class="table2" >
+    <tr class="tr1" style="border: 2px solid green; border-collapse:separate ;">
+        <td class="label" style="border: 2px solid green; border-collapse:separate ;"><label for="bg color">Background Color cell:</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="bg color" >
+            <option value="skyblue">skyblue</option>
+            <option value="red">red</option>
+        </select></td>
+    </tr>
+     <tr class="tr1" style="border: 2px solid green; border-collapse:separate ;">
+        <td class="label " style="border: 2px solid green; border-collapse:separate ;"><label for="Text Color Cell:">Text Color Cell:</label></td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="Text Color Cell:" >
+            <option value="red">red</option>
+            <option value="skyblue">skyblue</option>
+           
+        </select></td>
+         <tr style="border: 2px solid green; border-collapse:separate ;">
+        <tr class="tr1" style="border: 2px solid green; border-collapse:separate ;">
+            <td class="label " style="border: 2px solid green; border-collapse:separate ;"><label for="bg color head"> Background color head</label>
+                </td>
+            <td  style="border: 2px solid green; border-collapse:separate ;"><select name="bg color head" >
+                <option value="Steelblue"> Steelblue</option>
+                <option value="red">red</option>
+            <option value="skyblue">skyblue</option>
+            </select></td>
+        </tr>
+   
+    
+    <tr class="tr1" style="border: 2px solid green; border-collapse:separate ;">
+        <td class="label" style="border: 2px solid green; border-collapse:separate ;"><label for="Text color head:">Text color head:</label></td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><select name="Text color head:" >
+            <option value="white">white</option>
+            <option value="red">red</option>
+            <option value="skyblue">skyblue</option>
+        </select></td>
+    </tr>
+    <tr style="border: 2px solid green; border-collapse:separate ;"class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;"class="label "><label for="padding">padding</label>
+             </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number"name="padding">px</td>
+    </tr>
+    
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class=" level "><label for="Text align">Text align</label>
+            </td>
+        <td  style="border: 2px solid green; border-collapse:separate ;"><select name="Text align" >
+            <option value="left">left</option>
+            <option value="right">right</option>
+        </select></td>
+    </tr>
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label "><label for="Font-size">Font-size:</label>
+             </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number"name="Font-size">px</td>
+    </tr>
+    <tr style="border: 2px solid green; border-collapse:separate ;" class="tr1">
+        <td style="border: 2px solid green; border-collapse:separate ;" class="label "><label for="radius">Radius</label>
+            </td>
+        <td style="border: 2px solid green; border-collapse:separate ;"><input type="number" name="radius"></td>
+    </tr>
+</table></div>
+<button style="background-color: greenyellow;" value="create table">create table</button>
+</div>
+<div class="box2">
+    <table class="table" style="border: 2px solid sienna; border-collapse:collapse ; width: 700px; height: 50px;">
+        <tr class="tr2" style="border: 2px solid sienna; border-collapse:collapse ;">
+            <td class="td2"  style="border: 2px solid sienna; border-collapse:collapse ;">Col 1</td>
+            <td class="td2"  style="border: 2px solid sienna; border-collapse:collapse ;">Col 2</td>
+            <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">Col 3</td>
+        </tr>
+        <tr class="tr3" style="border: 2px solid sienna; border-collapse:collapse ;" >
+            <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">1</td>
+            <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">2</td>
+            <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">3</td>
+        </tr>
+        <tr class="tr3" style="border: 2px solid sienna; border-collapse:collapse ;" >
+            <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">4</td>
+        <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">5</td>
+        <td class="td2" style="border: 2px solid sienna; border-collapse:collapse ;">6</td></tr>
+    </table>
+</div>
+
+
+</body>
+</html>
